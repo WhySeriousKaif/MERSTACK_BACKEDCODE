@@ -25,7 +25,7 @@ config({
 
 mongoose
   .connect(process.env.MONGO_URI, {
-    dbName: "MERN_2023_YouTube",
+    dbName: "MERN_2025_YouTube",
   })
   .then(() => console.log("MongoDB is Connected!"))
   .catch((error) => console.error("MongoDB connection error:", error));
